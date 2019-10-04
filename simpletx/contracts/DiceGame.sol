@@ -61,5 +61,4 @@ contract DiceGame{
         return bets[msg.sender].currentBet;
     }
 
-    function () external payable{}
 }
