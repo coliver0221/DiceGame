@@ -22,24 +22,29 @@
   </head>
    <body>
     <div style="text-align: center; color: green"> <h1> Dice Game</h1></div>
-      <div class="container text-monospace" style="width: 650px;">
+    <div class="container text-monospace" style="width: 650px;">
       <div style="font-size: x-large;">
         <span>Current Status :  </span><span id="message" class="text-uppercase" style="color: orange">Set New Bet</span>
       </div>
       <br>
       <div id="accountAddress"></div><br>
-      <div> <p class="text-capitalize" style="font-size: x-large;">Get new bet</p></div>  
-            <button id="getNewBet_btn" type="submit" class="btn btn-primary">Get new bet
-            </button>
-            <br><br>
-        <div> <p id="newBet" class="text-capitalize font-weight-bold" style="font-size: large; color: blueviolet"> </p></div>
+      <div><p class="text-capitalize" style="font-size: x-large;">Get new bet</p></div>  
+      <button id="getNewBet_btn" type="submit" class="btn btn-primary">Get new bet</button>
+      <br><br>
+      <div>
+        <img id="img_bet">
+        <p id="newBet" class="text-capitalize font-weight-bold" style="font-size: large; color: blueviolet"> </p>
+      </div>
 <br>
       <div> <p class="text-capitalize font-weight-bold" style="font-size: x-large;">Roll the dice </p></div>
     <button id="roll_btn" type="submit" class="btn btn-primary">
       Roll it
     </button>
     <br><br>
-          <div> <p id="result" class="text-capitalize font-weight-bold" style="font-size: x-large; color: blue;"></p></div>   
+          <div>
+              <img id="img_destiny"> 
+            <p id="result" class="text-capitalize font-weight-bold" style="font-size: x-large; color: blue;"></p>
+          </div>   
       <!-- <div> <p id="status" class="text-capitalize font-weight-bold"></p></div> -->
     </div>
      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
