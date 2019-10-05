@@ -1,4 +1,9 @@
 # DiceGame
+## Download
+- By git clone
+    - clone or download the project
+- By Truffle Box
+    - Do `truffle unbox coliver0221/DiceGame`
 ## Setup
 1. Do `npm install` in root
 2. Open Ganache and QUICKSTATR
